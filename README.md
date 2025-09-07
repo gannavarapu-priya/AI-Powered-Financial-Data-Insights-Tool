@@ -64,6 +64,12 @@ streamlit run src/app.py
 
 ---
 
+## Outputs
+
+Screenshots of the app are in the outputs folder.
+
+---
+
 ## Contributing
 
 Contributions, feedback, and improvements are welcome!  
