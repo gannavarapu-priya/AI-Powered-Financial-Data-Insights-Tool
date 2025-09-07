@@ -4,9 +4,7 @@ Developed and deployed an AI-driven financial insights platform that allows user
 
 # Project Overview
 
-This repository contains a full-stack AI solution leveraging **Streamlit**, **Langchain**, **OpenAI GPT models**, and **HuggingFace embeddings**.  
-It enables understanding complex financial documents and provides interactive, AI-generated answers about revenue, risks, trends, and more.
-
+This project is a simple yet powerful tool that helps explore and understand the financial reports of big companies like Microsoft, Amazon, Apple, and Meta. It uses AI technology to let users ask questions in plain English about revenue, risks, and trends found in these companies’ official SEC 10-K filings. The app pulls relevant information from the reports and gives clear, easy-to-understand answers. Built with Streamlit, it combines natural language processing, document search, and user-friendly design to make digging into complex financial data much easier and faster.
 ## Files
 
 ### 1. `src/app.py`  
