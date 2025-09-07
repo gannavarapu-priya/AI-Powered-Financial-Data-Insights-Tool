@@ -1,6 +1,6 @@
 # AI Powered Financial Data Insights Tool
 
-Developed and deployed an AI-driven financial insights platform that allows users to explore and query companies' 10-K reports with natural language questions.
+Developed and deployed an AI-driven financial insights platform that allows users to explore and query companies 10-K reports with natural language questions.
 
 # Project Overview
 
