@@ -25,25 +25,28 @@ Specifies all Python dependencies needed to run this application.
 ## Installation
 
 ### Clone the repo
+```bash
 git clone https://github.com/gannavarapu-priya/AI-Powered-Financial-Data-Insights-Tool.git
 cd AI-Powered-Financial-Data-Insights-Tool
-
+```
 
 ### Set up virtual environment and install dependencies
+```bash
 python3 -m venv venv
 source venv/bin/activate # macOS/Linux
 venv\Scripts\activate # Windows
 pip install -r requirements.txt
-
+```
 ### Configure environment variables
-
 Create a `.env` file in the root directory, add your keys:
+```bash
 OPENAI_API_KEY=your_openai_api_key
-
+```
 
 ### Run the app locally
+```bash
 streamlit run src/app.py
-
+```
 ---
 
 ## Usage
