@@ -66,7 +66,12 @@ streamlit run src/app.py
 
 ## Outputs
 
-Screenshots of the app are in the outputs folder.
+Screenshots of the app are in the Outputs folder.
+app.png -> look of the page
+micrsoft.png -> microsoft company question
+amazon.png ->  amazon company question
+apple.png ->  apple company question
+meta.png -> meta company question
 
 ---
 
