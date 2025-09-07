@@ -1,0 +1,15 @@
+langchain
+langchain-openai
+openai
+pydantic>=2
+tiktoken
+faiss-cpu
+chromadb
+unstructured
+unstructured[pdf]
+pdfminer.six
+pypdf
+pandas
+numpy
+python-dotenv
+streamlit
