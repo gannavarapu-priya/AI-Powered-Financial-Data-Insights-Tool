@@ -27,5 +27,61 @@ Specifies all Python dependencies needed to run this application.
 ## Installation
 
 ### Clone the repo
-git clone https://github.com/gannavarapu-priya/
-cd your-repo-name
+git clone https://github.com/gannavarapu-priya/AI-Powered-Financial-Data-Insights-Tool.git
+cd AI-Powered-Financial-Data-Insights-Tool
+
+
+### Set up virtual environment and install dependencies
+python3 -m venv venv
+source venv/bin/activate # macOS/Linux
+venv\Scripts\activate # Windows
+pip install -r requirements.txt
+
+### Configure environment variables
+
+Create a `.env` file in the root directory, add your keys:
+OPENAI_API_KEY=your_openai_api_key
+
+
+### Run the app locally
+streamlit run src/app.py
+
+---
+
+## Usage
+
+- Select a company from the dropdown.
+- Ask questions about financial data, like revenue growth or risk factors.
+- View AI-generated contextual answers pulled from 10-Ks.
+
+---
+
+## Data
+
+- Financial reports (10-Ks) and vector indices are loaded dynamically.
+- Large data files (vectorstore indexes, raw 10-Ks) are **not included** in the repo; prepare or download them separately.
+
+---
+
+## Contributing
+
+Contributions, feedback, and improvements are welcome!  
+Please fork the repository and open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+
+For questions or collaboration, contact: [gannavarapup.11@gmail.com](mailto:gannavarapup.11@gmail.com)
+
+---
+
+*Happy coding and learning!*
+
+
